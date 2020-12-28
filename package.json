@@ -25,7 +25,14 @@
     "url": "https://github.com/UlisesGascon/blueprint-fastify-modern-api/issues"
   },
   "homepage": "https://github.com/UlisesGascon/blueprint-fastify-modern-api#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run test"
+    }
+  },
   "devDependencies": {
+    "husky": "^4.3.6",
     "jest": "^26.6.3",
     "standard": "^16.0.3"
   }
