@@ -4,7 +4,9 @@
   "description": "Blueprint for developing Fastify Modern API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/UlisesGascon/blueprint-fastify-modern-api/issues"
   },
-  "homepage": "https://github.com/UlisesGascon/blueprint-fastify-modern-api#readme"
+  "homepage": "https://github.com/UlisesGascon/blueprint-fastify-modern-api#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
