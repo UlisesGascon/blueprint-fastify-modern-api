@@ -1,0 +1,19 @@
+{
+  "name": "blueprint-fastify-modern-api",
+  "version": "1.0.0",
+  "description": "Blueprint for developing Fastify Modern API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/blueprint-fastify-modern-api.git"
+  },
+  "author": "Ulises Gascon",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/blueprint-fastify-modern-api/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/blueprint-fastify-modern-api#readme"
+}
