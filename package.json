@@ -4,8 +4,8 @@
   "description": "Blueprint for developing Fastify Modern API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "jest --verbose",
     "test:coverage": "jest --verbose  --coverage",
     "test:watch": "jest --verbose --watchAll",
@@ -40,6 +40,8 @@
     "standard": "^16.0.3"
   },
   "dependencies": {
-    "debug": "^4.3.1"
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
   }
 }
