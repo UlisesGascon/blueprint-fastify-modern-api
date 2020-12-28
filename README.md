@@ -11,6 +11,7 @@
 ### Infrastructure
 
 - Health endpoint `GET /__/health`
+- Manifest endpoint `GET /__/manifest`
 
 ### Developer experience
 
